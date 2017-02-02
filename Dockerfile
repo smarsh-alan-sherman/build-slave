@@ -10,7 +10,6 @@ RUN yum update -y \
      java-1.8.0-openjdk-devel \
      maven \
      git \
-     openssh-server \
   && yum clean all
 
 ARG VERSION=2.62
